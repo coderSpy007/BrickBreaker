@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/homebg"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <ImageButton
+        android:id="@+id/easyBut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/easybutton"
+        android:contentDescription="easy level button"
+        android:onClick="startGame" />
+
+    <ImageButton
+        android:id="@+id/normalBut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/normalbutton"
+        android:contentDescription="normal level button"
+        android:onClick="startNormal" />
+
+    <ImageButton
+        android:id="@+id/hardBut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/hardbutton"
+        android:contentDescription="hard level button"
+        android:onClick="startHard" />
+</LinearLayout>

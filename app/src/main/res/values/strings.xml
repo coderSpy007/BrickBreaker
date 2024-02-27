@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">BrickBreaker</string>
+    <string name="gameover">Your Points</string>
+    <string name="level1">easy</string>
+    <string name="level2">normal</string>
+    <string name="level3">hard</string>
+    <string name="point">50</string>
+    <string name="header">HISTORY POINTS</string>
+    <string name="button">Return</string>
+    <string name="button2">Reset</string>
+    <string name="col1">POINTS</string>
+    <string name="col2">LEVEL</string>
+    <string name="col3">TIME</string>
+</resources>
